@@ -1,0 +1,5 @@
+﻿depends: openwrap content
+depends: nunit
+description: OpenRasta testing helpers.
+build: msbuild;profile=net35;project=src\openrasta.testing\openrasta.testing.csproj;
+name: openrasta-testing
